@@ -38,7 +38,7 @@ Lintcode
 |1463|[Paper Review](https://www.jiuzhang.com/problem/paper-review/)|[python](./paper-review/main.py)|Medium|
 |1537|[Swap Zero-One](https://www.jiuzhang.com/problem/swap-zero-one/)|[python](./swap-zero-one/main.py)|Medium|
 |1565|[Modern Ludo I](https://www.lintcode.com/problem/1565)|[python](./modern-ludo-i/main.py)|Medium|
-|1800|[Float Combination Sum](https://www.jiuzhang.com/problem/float-combination-sum/)|Medium|
+|1800|[Float Combination Sum](https://www.jiuzhang.com/problem/float-combination-sum/)|[python](./float-combination-sum/main.py)|Medium|
 |1862|[Time to Flower Tree](https://www.lintcode.com/problem/1862)|[python](./time-flower-tree/main.py)|Medium|
 |1891|[Travel Plan](https://www.lintcode.com/problem/1891)|[python](./travel-plan/main.py)|Medium|
 |1897|[Meeting Room III](https://www.lintcode.com/problem/1897)|[python](./meeting-room-iii/main.py)|Medium|
