@@ -39,21 +39,23 @@ Leetcode
 Lintcode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|42|[Maximum Subarray II](https://www.lintcode.com/problem/42)|[python](./maximum-subarray-ii/main.py)|Medium
-|45|[Maximum Subarray Difference](https://www.lintcode.com/problem/45)|[python](./maxium-subarray-difference/main.py)|Medium|
-|366|[Fibonacci](https://www.lintcode.com/problem/366)|[python](./fibonacci/main.py)|Naive|
+|42|[Maximum Subarray II](https://www.jiuzhang.com/problem/maximum-subarray-ii/)|[python](./maximum-subarray-ii/main.py)|Medium
+|45|[Maximum Subarray Difference](https://www.jiuzhang.com/problem/maximum-subarray-difference/)|[python](./maxium-subarray-difference/main.py)|Medium|
+|366|[Fibonacci](https://www.jiuzhang.com/problem/fibonacci/)|[python](./fibonacci/main.py)|Naive|
 |604|[Window Sum](https://www.jiuzhang.com/problem/window-sum)|[python](./window-sum/main.py)|Easy|
 |1463|[Paper Review](https://www.jiuzhang.com/problem/paper-review/)|[python](./paper-review/main.py)|Medium|
 |1537|[Swap Zero-One](https://www.jiuzhang.com/problem/swap-zero-one/)|[python](./swap-zero-one/main.py)|Medium|
-|1565|[Modern Ludo I](https://www.lintcode.com/problem/1565)|[python](./modern-ludo-i/main.py)|Medium|
+|1565|[Modern Ludo I](https://www.jiuzhang.com/problem/modern-ludo-i/)|[python](./modern-ludo-i/main.py)|Medium|
 |1800|[Float Combination Sum](https://www.jiuzhang.com/problem/float-combination-sum/)|[python](./float-combination-sum/main.py)|Medium|
-|1862|[Time to Flower Tree](https://www.lintcode.com/problem/1862)|[python](./time-flower-tree/main.py)|Medium|
-|1891|[Travel Plan](https://www.lintcode.com/problem/1891)|[python](./travel-plan/main.py)|Medium|
-|1897|[Meeting Room III](https://www.lintcode.com/problem/1897)|[python](./meeting-room-iii/main.py)|Medium|
+|1862|[Time to Flower Tree](https://www.jiuzhang.com/problem/time-to-flower-tree/)|[python](./time-flower-tree/main.py)|Medium|
+|1891|[Travel Plan](https://www.jiuzhang.com/problem/travel-plan/)|[python](./travel-plan/main.py)|Medium|
+|1897|[Meeting Room III](https://www.jiuzhang.com/problem/meeting-room-iii/)|[python](./meeting-room-iii/main.py)|Medium|
 |1899|[Fetch supplies II](https://www.jiuzhang.com/problem/fetch-supplies-ii)|[python](./fetch-supplies-ii/main.py)|Medium|
 ||[Friend Circles](https://www.jiuzhang.com/problem/friend-circles/)|[python](./friend-circles/main.py)|Medium|
 ||[Knight Shortest Path II](https://www.jiuzhang.com/problem/knight-shortest-path-ii/)|[python](./knight-shortest-path-ii/main.py)|Medium|
 |609|[Two Sum - Difference equals to target](https://www.jiuzhang.com/problem/two-sum-difference-equals-to-target/)|[python](./two-sum-difference-equals-to-target/main.py)|Medium|
 |587|[Two Sum - Unique pairs](https://www.jiuzhang.com/problem/two-sum-unique-pairs/)|[python](./two-sum-unique-pairs/main.py)|Medium|
 ||[Two Sum - Closest to target](https://www.jiuzhang.com/problem/two-sum-closest-to-target/)|[python](./two-sum-closest-to-target/main.py)|Medium|
+|391|[Number of Airplanes in the Sky](https://www.jiuzhang.com/problem/number-of-airplanes-in-the-sky/)|[python](./number-of-airplanes-in-the-sky/main.py)|Medium|
+||[Merge K Sorted Arrays](https://www.jiuzhang.com/problem/merge-k-sorted-arrays/)|[python](./merge-k-sorted-arrays/main.py)|Medium|
 
