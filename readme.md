@@ -58,4 +58,5 @@ Lintcode
 ||[Two Sum - Closest to target](https://www.jiuzhang.com/problem/two-sum-closest-to-target/)|[python](./two-sum-closest-to-target/main.py)|Medium|
 |391|[Number of Airplanes in the Sky](https://www.jiuzhang.com/problem/number-of-airplanes-in-the-sky/)|[python](./number-of-airplanes-in-the-sky/main.py)|Medium|
 ||[Merge K Sorted Arrays](https://www.jiuzhang.com/problem/merge-k-sorted-arrays/)|[python](./merge-k-sorted-arrays/main.py)|Medium|
+||[Graph Valid Tree](https://www.jiuzhang.com/problem/graph-valid-tree/)|[python](./graph-valid-tree/main.py)|Medium|
 
