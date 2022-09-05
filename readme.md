@@ -17,7 +17,7 @@ Leetcode
 |252|[Meeting Room](https://www.jiuzhang.com/problem/meeting-rooms/)|[python](./252-meeting-room/main.py)|Medium|||
 |253|[Meeting Room II](https://www.jiuzhang.com/problem/meeting-rooms-ii/)|[python](./253-meeting-room-ii/main.py)|Medium|||
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[python](./264-ugly-number-ii/main.py)|Medium|O(n)|O(1)|
-|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[python](./279-perfect-squares/main.py)|O(n * sqrt(n))|O(n)|
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[python](./279-perfect-squares/main.py)|Medium|O(n * sqrt(n))|O(n)|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[python](./300-longest-increasing-subsequence/main.py)|Medium|O(nlogn)|O(n)|
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[python](./307-range-sum-query-mutable/main.py)|Medium|O(logn)|O(n)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[python](./349-intersection-of-two-arrays/main.py)|Easy|O(m + n)|O(min(m, n))|
