@@ -115,6 +115,7 @@ Lintcode
 |[Count of Smaller Number before itself](https://www.jiuzhang.com/problem/count-of-smaller-number-before-itself/)|[python](./count-of-smaller-number-before-itself/main.py)|Hard|
 |[Max Tree](https://www.jiuzhang.com/problem/max-tree/)|[python](./max-tree/main.py)|Hard|
 |[Xor Sum](https://www.jiuzhang.com/problem/xor-sum/)|[python](./xor-sum/main.py)|Hard|
+|[Valid Parentheses](https://www.jiuzhang.com/problem/valid-parentheses/)|[python](./valid-parentheses/main/py)|Medium|
 
 ### pdb set trace
 
