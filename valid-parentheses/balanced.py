@@ -19,12 +19,13 @@ def areBracketsBalanced(expr):
             # Push the element in the stack
             stack.append(char)
         else:
-            # IF current character is not opening
+            # If current character is not opening
             # bracket, then it must be closing.
             # So stack cannot be empty at this point.
             if not stack:
                 return False
             current_char = stack.pop()
+            # print('current_char is %s, char is %s' % (current_char, char))
             if current_char == '(':
                 if char != ")":
                     return False
@@ -35,7 +36,7 @@ def areBracketsBalanced(expr):
                 if char != "]":
                     return False
 
-    # Check Empty Stack
+    # Check Empty Stack, in this case all matching
     if stack:
         return False
     return True
