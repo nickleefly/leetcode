@@ -3,6 +3,7 @@ from typing import Optional
 from operator import attrgetter
 import heapq
 
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -10,6 +11,7 @@ class ListNode:
     # def __repr__(self):
     #     if self:
     #         return "{} -> {}".format(self.val, self.next)
+
 
 class Solution:
     # @param a list of ListNode
@@ -68,7 +70,7 @@ class Solution:
         else:
             return None
 
-    # Building the new list with just the values from the old ones, 
+    # Building the new list with just the values from the old ones,
     # leaving the old lists intact
     def mergeKLists2(self, lists):
         def vals(node):
@@ -108,6 +110,7 @@ class Solution:
     Time Complexity: O(n·log(m)) where n is the total number of elements and m is the number of lists
     Space Complexity: O(n)
     """
+
     def mergeKLists_heap(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 
         head = ListNode(None)
@@ -159,10 +162,11 @@ class Solution:
             tail.next = node
             tail = tail.next
             if node.next:
-                i+=1
+                i += 1
                 heapq.heappush(h, (node.next.val, i, node.next))
 
         return head.next
+
 
 if __name__ == "__main__":
     list1 = ListNode(1)

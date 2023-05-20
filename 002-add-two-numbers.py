@@ -1,16 +1,20 @@
 from typing import Optional
 
 # Definition for singly-linked list.
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
 
 def createLinkedList(lst):
     head = None
     for val in reversed(lst):
         head = ListNode(val, head)
     return head
+
 
 def toList(head):
     lst = []
@@ -19,8 +23,9 @@ def toList(head):
         head = head.next
     return lst
 
-l1 = createLinkedList([2,4,3])
-l2 = createLinkedList([5,6,4])
+
+l1 = createLinkedList([2, 4, 3])
+l2 = createLinkedList([5, 6, 4])
 
 
 class Solution:
@@ -37,6 +42,7 @@ class Solution:
             carry, cur.next = divmod(carry, 10)
             cur.next = cur = ListNode(cur.next)
         return res.next
+
 
 if __name__ == '__main__':
     s = Solution()

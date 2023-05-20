@@ -4,10 +4,11 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        if s is None or s == '': return 0
-        counter = 0 #max length of substring
-        start = 0 #index where all the char between the start and i are all unique
-        mark = {} #all the char index we last seen
+        if s is None or s == '':
+            return 0
+        counter = 0  # max length of substring
+        start = 0  # index where all the char between the start and i are all unique
+        mark = {}  # all the char index we last seen
 
         for i in range(len(s)):
             char_now = s[i]
@@ -17,6 +18,7 @@ class Solution(object):
             mark[char_now] = i
 
         return counter
+
 
 if __name__ == '__main__':
     # begin

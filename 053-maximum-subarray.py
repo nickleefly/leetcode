@@ -13,7 +13,8 @@ def maxSubArray(nums):
     # Return max_so_far.
     return max_so_far
 
-nums = [-2,1,-3,4,-1,2,1,-5,4]
+
+nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 print(maxSubArray(nums))
 
 """

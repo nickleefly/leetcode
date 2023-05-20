@@ -1,28 +1,29 @@
 def max_subarray_ii(nums):
-  """
-  Finds the maximum subarray sum in an array, where the subarray can have non-contiguous elements.
+    """
+    Finds the maximum subarray sum in an array, where the subarray can have non-contiguous elements.
 
-  Args:
-    nums: An array of integers.
+    Args:
+      nums: An array of integers.
 
-  Returns:
-    The maximum subarray sum.
-  """
+    Returns:
+      The maximum subarray sum.
+    """
 
-  max_ending_here = max_so_far = nums[0]
-  dp = [0] * len(nums)
-  dp[0] = nums[0]
+    max_ending_here = max_so_far = nums[0]
+    dp = [0] * len(nums)
+    dp[0] = nums[0]
 
-  for i in range(1, len(nums)):
-    max_ending_here = max(nums[i], max_ending_here + nums[i])
-    max_so_far = max(max_so_far, max_ending_here)
-    dp[i] = max_ending_here
+    for i in range(1, len(nums)):
+        max_ending_here = max(nums[i], max_ending_here + nums[i])
+        max_so_far = max(max_so_far, max_ending_here)
+        dp[i] = max_ending_here
 
-  return max_so_far
+    return max_so_far
+
 
 """
 The algorithm works by maintaining two variables: max_ending_here and max_so_far. max_ending_here
-stores the maximum sum of any subarray ending at the current element, and max_so_far stores the 
+stores the maximum sum of any subarray ending at the current element, and max_so_far stores the
 maximum sum of any subarray in the entire array.
 
 At each step, we update max_ending_here to be the maximum of the current element and the sum of the

@@ -1,4 +1,6 @@
 from typing import List
+
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         """
@@ -29,8 +31,9 @@ class Solution:
 
         return water
 
+
 if __name__ == "__main__":
-    list1 = [0,1,0,2,1,0,1,3,2,1,2,1]
-    list2 = [4,2,0,3,2,5]
+    list1 = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+    list2 = [4, 2, 0, 3, 2, 5]
     print(Solution().trap(list1))
     print(Solution().trap(list2))
