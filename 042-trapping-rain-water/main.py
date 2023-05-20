@@ -34,4 +34,3 @@ if __name__ == "__main__":
     list2 = [4,2,0,3,2,5]
     print(Solution().trap(list1))
     print(Solution().trap(list2))
- 
