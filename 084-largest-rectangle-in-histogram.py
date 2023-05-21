@@ -39,12 +39,13 @@ def largest_rectangle_in_histogram(heights):
     # Iterate through the bars in the histogram
     for i in range(n):
         while len(stack) > 0 and heights[i] < heights[stack[-1]]:
-            # print(f'stack is {stack}, stack[-1] is {stack[-1]}')
             # If the height of the current bar is less than the height of the
             # top bar in the stack, pop the top bar and compute the area of
             # the largest rectangle that can be formed using the height of
             # the popped bar and the width of the sub-sequence of bars to its left
+            # print(f'i is {i}, stack is {stack}, stack[-1] is {stack[-1]}')
             idx = stack.pop()
+            # print(f'length of stack is {len(stack)}')
             width = i if len(stack) == 0 else i - stack[-1] - 1
             area = heights[idx] * width
             max_area = max(max_area, area)
@@ -66,18 +67,33 @@ def largest_rectangle_in_histogram(heights):
 
 heights = [2, 1, 5, 6, 2, 3]
 
-print(largestRectangleArea(heights))
+print(largest_rectangle_in_histogram(heights))
 
 """
-The solution uses a variation of the stack-based approach to solve the problem. The algorithm uses a
-stack to keep track of increasing sub-sequences of bars in the histogram.
-For each bar i in the histogram, we compare its height with the height of the top bar in the stack.
-If the height of the current bar is less than the height of the top bar in the stack, then we pop the
-top bar from the stack and compute the area of the largest rectangle that can be formed using the
-height of the popped bar and the width of the sub-sequence of bars to its left. We update the
-maximum area seen so far and repeat the process until the height of the current bar is greater than
-or equal to the height of the bar at the top of the stack.
-We push the index i onto the stack after we are done. At the end of the loop, we process any remaining
-bars in the stack by calculating the largest rectangle that can be formed using their heights and the
-remaining width of the histogram. Finally, we return the maximum area seen so far.
+1, The function first computes the length of the input heights list using
+n = len(heights). If the length is 0, the function returns 0 because an empty
+histogram has no area.
+
+2, The function initializes an empty stack stack to store the indices of the bars
+in the histogram that form an increasing sub-sequence of bars. It also initializes
+a variable max_area to keep track of the maximum area seen so far.
+
+3, The function iterates through the bars in the histogram using a for loop. For
+each bar i, the while loop checks the height of the current bar against the height
+of the top bar in the stack using heights[i] < heights[stack[-1]]. If the current
+bar's height is less than the height of the bar at the top of the stack, we pop the
+top bar from the stack and compute the area of the largest rectangle that can be
+formed using its height and the width of the sub-sequence of bars to its left. We
+update the max_area if the calculated area is larger than the current maximum area.
+
+4, After calculating the area of all possible rectangles that use the current bar as
+the right boundary, we push it onto the stack using stack.append(i).
+
+5, Once we finish iterating through all the bars in the histogram, we process any
+remaining bars left in the stack by popping each of them from the stack and
+calculating the area of the largest rectangle that can be formed using their height.
+We update the max_area if the calculated area is larger than the current maximum
+area.
+
+6, The function finally returns the maximum area seen so far.
 """
