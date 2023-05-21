@@ -14,8 +14,8 @@ Leetcode
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[python](./053-maximum-subarray.py)|Medium|O(n)|O(1)|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[python](./055-jump-game.py)|Medium|O(n)|O(1)|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[python](./062-unique-paths.py)|Medium|O(m * n)|O(m + n)|
-|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[python](./075-sort-colors.py)|Medium|||
-|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[python](./084-largest-rectangle-in-histogram.py)|Hard|||
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[python](./075-sort-colors.py)|Medium|O(N)|O(1)|
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[python](./084-largest-rectangle-in-histogram.py)|Hard|O(N)|O(N)|
 |85|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[python](./085-maximal-rectangle.py)|Hard|||
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)|[python](./087-scramble-string.py)|Hard|||
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[python](./097-interleaving-string.py)|Hard|O(m * n)|O(m + n)|
@@ -32,7 +32,7 @@ Leetcode
 |253|[Meeting Room II](https://www.jiuzhang.com/problem/meeting-rooms-ii/)|[python](./253-meeting-room-ii.py)|Medium|O(NlogN)|O(N)|
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[python](./264-ugly-number-ii.py)|Medium|O(n)|O(1)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[python](./279-perfect-squares.py)|Medium|O(n * sqrt(n))|O(n)|
-|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[python](./287-find-the-duplicate-number.py)|Medium|||
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[python](./287-find-the-duplicate-number.py)|Medium|O(n)|O(1)|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[python](./300-longest-increasing-subsequence.py)|Medium|O(nlogn)|O(n)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[python](./301-remove-invalid-parentheses.py)|Hard|||
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[python](./307-range-sum-query-mutable.py)|Medium|O(logn)|O(n)|
