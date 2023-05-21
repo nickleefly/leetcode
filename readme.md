@@ -28,8 +28,8 @@ Leetcode
 |174|[Dungeon Game](https://leetcode.com/problems/dungeon-game/)|[python](./174-dungeon-game.py)|Hard|||
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[python](./200-number-of-islands.py)|Medium|O(m * n)|O(m * n)|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[python](./212-word-search-ii.py)|Hard|||
-|252|[Meeting Room](https://www.jiuzhang.com/problem/meeting-rooms/)|[python](./252-meeting-room.py)|Medium|||
-|253|[Meeting Room II](https://www.jiuzhang.com/problem/meeting-rooms-ii/)|[python](./253-meeting-room-ii.py)|Medium|||
+|252|[Meeting Room](https://www.jiuzhang.com/problem/meeting-rooms/)|[python](./252-meeting-room.py)|Medium|O(NlogN)|O(1)|
+|253|[Meeting Room II](https://www.jiuzhang.com/problem/meeting-rooms-ii/)|[python](./253-meeting-room-ii.py)|Medium|O(NlogN)|O(N)|
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[python](./264-ugly-number-ii.py)|Medium|O(n)|O(1)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[python](./279-perfect-squares.py)|Medium|O(n * sqrt(n))|O(n)|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[python](./287-find-the-duplicate-number.py)|Medium|||
