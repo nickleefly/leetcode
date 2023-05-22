@@ -38,7 +38,7 @@ Leetcode
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[python](./307-range-sum-query-mutable.py)|Medium|O(logn)|O(n)|
 |315|[Count of Smaller Numbers after self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[python](./315-count-of-smaller-numbers-after-self.py)|Hard|||
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[python](./349-intersection-of-two-arrays.py)|Easy|O(m + n)|O(min(m, n))|
-|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[python](./373-find-k-pairs-with-smallest-sums.py)|Medium|||
+|373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[python](./373-find-k-pairs-with-smallest-sums.py)|Medium|O(nlogn)|O(n)|
 |378|[Kth Smallest Number in Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[python](./378-kth-smallest-element-in-a-sorted-matrix.py)|Medium|O(k * log(min(n, m, k)))|O(min(n, m, k))|
 |403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|[python](./403-frog-jump.py)|Hard|||
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[python](./417-pacific-atlantic-water-flow.py)|Medium|O(m * n)|O(m * n)|
