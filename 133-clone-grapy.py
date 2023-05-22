@@ -29,19 +29,6 @@ class Solution:
         return clone(node)
 
 
-"""
-This performs a depth-first search from the starting node. At each node, we check if we have
-already visited and cloned that node. If so, we return its clone. If not, we create a clone,
-save it in the visited dictionary, and recursively clone all its neighbors.
-
-The visited dictionary acts as a hash map to save the mapping from original node to its clone.
-This ensures we do not create duplicate clones of the same node.
-
-Time complexity: O(V + E) where V is number of nodes and E is number of edges.
-Space complexity: O(V) due to recursion stack and visited dictionary.
-"""
-
-
 def createGraph(input_list):
     # Create a dictionary to store the mapping between node values and their corresponding nodes
     node_dict = {}

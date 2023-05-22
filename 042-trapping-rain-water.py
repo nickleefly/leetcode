@@ -3,16 +3,6 @@ from typing import List
 
 class Solution:
     def trap(self, height: List[int]) -> int:
-        """
-        Given an array of non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
-
-        Args:
-            height: A list of non-negative integers.
-
-        Returns:
-            The amount of water that can be trapped after raining.
-        """
-
         n = len(height)
         left_max = [0] * n
         right_max = [0] * n

@@ -14,12 +14,3 @@ def can_jump(nums):
 
     # If farthest is equal to the length of the array, then it is possible to reach the last index.
     return farthest == len(nums)
-
-
-"""
-The algorithm works by maintaining a variable farthest, which stores the farthest index that can be
-reached from the current index. At each step, we update farthest to be the maximum of farthest and
-the current index plus the maximum jump length at the current index. If farthest ever becomes less
-than the current index, then it is not possible to reach the last index. Otherwise, we can reach the
-last index if we can reach farthest from the current index.
-"""

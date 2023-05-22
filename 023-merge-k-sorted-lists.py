@@ -93,24 +93,6 @@ class Solution:
             last = last.next
         return dummy.next
 
-    # def mergeKLists_heap(self, lists: List[ListNode]) -> ListNode:
-    """
-    1, Take the first node of each of the linked lists
-    and add it into a heap. When you add it to the heap
-    add (node.val, i) where i is the ith list.
-
-    2, Create a dummy node head.
-
-    3, Pop the first node from the heap and make it the
-    next node in the dummy-list. Remember to add the
-    first node from the ith linked list into the heap
-    since we just removed a node from this list from the heap.
-
-    4, Repeat until the heap is empty.
-    Time Complexity: O(n·log(m)) where n is the total number of elements and m is the number of lists
-    Space Complexity: O(n)
-    """
-
     def mergeKLists_heap(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 
         head = ListNode(None)

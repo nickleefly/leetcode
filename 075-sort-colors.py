@@ -51,16 +51,6 @@ def sort_colors(nums):
 
 class SolutionMergeSort:
     def sortColors(self, nums: List[int]) -> None:
-        """
-        Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent,
-        with the colors in the order red, white, and blue.
-
-        Args:
-            nums: A list of integers representing colors. Each integer will be 0, 1, or 2.
-
-        Returns:
-            None. Sorting is done in-place.
-        """
         # Define a recursive helper function to perform merge sort in-place
         def mergesort(left, right):
             if left < right:
@@ -88,16 +78,6 @@ class SolutionMergeSort:
 
 class SolutionHeapsort:
     def sortColors(self, nums: List[int]) -> None:
-        """
-        Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent,
-        with the colors in the order red, white, and blue.
-
-        Args:
-            nums: A list of integers representing colors. Each integer will be 0, 1, or 2.
-
-        Returns:
-            None. Sorting is done in-place.
-        """
         # Define a helper function to maintain the heap property
         def heapify(arr, n, i):
             largest = i

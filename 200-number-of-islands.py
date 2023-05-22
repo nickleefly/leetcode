@@ -33,30 +33,3 @@ class Solution:
 
         # Return the number of islands
         return island_count
-
-
-"""
-The `numIslands` function takes in a 2D grid of `m` rows and `n` columns and
-returns the number of islands in the grid. An island is represented by a group
-of connected `1`s that are surrounded by `0`s.
-
-The function starts by defining a `dfs` function that performs a depth-first
-search to find all the cells that are part of the same island. The `dfs` function
-takes in the row `row` and column `col` of the current cell.
-
-The `dfs` function first checks if the current cell is within the grid and is part
-of an island. If the current cell is not part of an island, the function simply returns.
-Otherwise, the function marks the current cell as visited by changing its value to `'0'`
-and recursively searches all adjacent cells to find all the cells that are part of the
-same island.
-
-The `numIslands` function checks if the input grid is empty or `None`. If the grid is
-empty or `None`, the function returns `0`. Otherwise, it initializes the island
-counter `island_count` to `0`.
-
-The function then iterates through each cell in the input grid. If the current
-cell is part of an unvisited island, the function increments the island counter
-and searches all adjacent cells to find all the cells that are part of the same island.
-
-Once it has searched all the cells in the grid, the function returns the number of islands.
-"""
