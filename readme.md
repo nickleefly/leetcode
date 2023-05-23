@@ -42,7 +42,7 @@ Leetcode
 |378|[Kth Smallest Number in Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[python](./378-kth-smallest-element-in-a-sorted-matrix.py)|Medium|O(k * log(min(n, m, k)))|O(min(n, m, k))|
 |403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|[python](./403-frog-jump.py)|Hard|||
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[python](./417-pacific-atlantic-water-flow.py)|Medium|O(m * n)|O(m * n)|
-|475|[Heaters](https://leetcode.com/problems/heaters/)|[python](./475-heaters.py)|Medium|O((m + n) * logn)|O(1)|
+|475|[Heaters](https://leetcode.com/problems/heaters/)|[python](./475-heaters.py)|Medium| O(nlogn))|O(1)|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)|[python](./494-target-sum.py)|Medium|||
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[python](./513-find-bottom-left-tree-value.py)|Medium|||
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[python](./543-diameter-of-binary-tree.py)|Easy|||
@@ -115,7 +115,7 @@ Lintcode
 |[Count of Smaller Number before itself](https://www.jiuzhang.com/problem/count-of-smaller-number-before-itself/)|[python](./count-of-smaller-number-before-itself.py)|Hard|
 |[Max Tree](https://www.jiuzhang.com/problem/max-tree/)|[python](./max-tree.py)|Hard|
 |[Xor Sum](https://www.jiuzhang.com/problem/xor-sum/)|[python](./xor-sum.py)|Hard|
-|[Valid Parentheses](https://www.jiuzhang.com/problem/valid-parentheses/)|[python](./valid-parentheses/py)|Medium|
+|[Valid Parentheses](https://www.jiuzhang.com/problem/valid-parentheses/)|[python](./valid-parentheses.py)|Medium|
 
 ### pdb set trace
 
