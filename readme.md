@@ -43,7 +43,7 @@ Leetcode
 |403|[Frog Jump](https://leetcode.com/problems/frog-jump/)|[python](./403-frog-jump.py)|Hard|||
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[python](./417-pacific-atlantic-water-flow.py)|Medium|O(m * n)|O(m * n)|
 |475|[Heaters](https://leetcode.com/problems/heaters/)|[python](./475-heaters.py)|Medium| O(nlogn))|O(1)|
-|494|[Target Sum](https://leetcode.com/problems/target-sum/)|[python](./494-target-sum.py)|Medium|||
+|494|[Target Sum](https://leetcode.com/problems/target-sum/)|[python](./494-target-sum.py)|Medium|O(m*n)|O(n)|
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[python](./513-find-bottom-left-tree-value.py)|Medium|||
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[python](./543-diameter-of-binary-tree.py)|Easy|||
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[python](./560-subarray-sum-equals-k.py)|Medium|||
