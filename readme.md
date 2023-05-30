@@ -44,9 +44,9 @@ Leetcode
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[python](./417-pacific-atlantic-water-flow.py)|Medium|O(m * n)|O(m * n)|
 |475|[Heaters](https://leetcode.com/problems/heaters/)|[python](./475-heaters.py)|Medium| O(nlogn))|O(1)|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)|[python](./494-target-sum.py)|Medium|O(m*n)|O(n)|
-|513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[python](./513-find-bottom-left-tree-value.py)|Medium|||
-|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[python](./543-diameter-of-binary-tree.py)|Easy|||
-|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[python](./560-subarray-sum-equals-k.py)|Medium|||
+|513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[python](./513-find-bottom-left-tree-value.py)|Medium|O(n)|O(n)|
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[python](./543-diameter-of-binary-tree.py)|Easy|O(n)|O(n)|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[python](./560-subarray-sum-equals-k.py)|Medium|O(n)|O(n)|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[python](./589-n-ary-tree-preorder-traversal.py)|Easy|||
 |644|[Maximum Average Subarray II](https://www.jiuzhang.com/problem/maximum-average-subarray-ii/)|[python](./644-maximum-average-subarray-ii.py)|Medium|||
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[python](./674-longest-continuous-increasing-subsequence.py)|Easy|||
