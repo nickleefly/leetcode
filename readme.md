@@ -60,7 +60,7 @@ Leetcode
 |975|[Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)|[python](./975-odd-even-jump.py)|Hard|||
 |1057|[Campus bikes](https://www.jiuzhang.com/problem/campus-bikes/)|[python](./1057-campus-bikes.py)|Medium|||
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|[python](./1462-course-schedule-iv.py)|Medium|||
-|1835|[Number of Ways to Stay in the Same Place After Some Steps I](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|[python](./1835-number-of-ways-to-stay-in-the-same-place-after-some-steps.py)|Easy|||
+|1835|[Number of Ways to Stay in the Same Place After Some Steps I](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)|[python](./1835.py)|Easy|||
 
 Lintcode
 | Title | Solution | Difficulty |
