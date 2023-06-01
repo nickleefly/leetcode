@@ -49,7 +49,7 @@ Leetcode
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[python](./560-subarray-sum-equals-k.py)|Medium|O(n)|O(n)|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[python](./589-n-ary-tree-preorder-traversal.py)|Easy|O(n)|O(n)|
 |644|[Maximum Average Subarray II](https://www.jiuzhang.com/problem/maximum-average-subarray-ii/)|[python](./644-maximum-average-subarray-ii.py)|Medium|O(n)|O(1)|
-|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[python](./674-longest-continuous-increasing-subsequence.py)|Easy|||
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[python](./674-longest-continuous-increasing-subsequence.py)|Easy|O(n)|O(1)|
 |773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/)|[python](./773-sliding-puzzle.py)|Hard|||
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[python](./778-swim-in-rising-water.py)|Hard|||
 |862|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|[python](./shortest-subarray-with-sum-at-least-k.py)|Hard|||
