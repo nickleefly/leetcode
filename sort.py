@@ -1,28 +1,33 @@
 class Solution:
-  def sortIntegers(self, A):
-    self.quickSort(A, 0, len(A) - 1)
+    def sortArray(self, nums):
+        self.quickSort(nums, 0, len(nums) - 1)
+        return nums
 
-  def quicksort(self, A, start, end):
-    if start >= end:
-      return
+    def quickSort(self, nums, start, end):
+        if start >= end:
+            return
 
-    left, right = start, end
-    # key point 1: pivot is the value, not the index
-    pivot = A[(start + end) // 2]
+        left, right = start, end
+        # Pivot element is the middle element value
+        pivot = nums[(start + end) // 2]
 
-    # key point 2: every time you compare left and right, it should be
-    # left <= right not left < right
-    while left<= right:
-      while left <= right and A[left] < pivot:
-        left += 1
-      while left <= right and A[right] > pivot:
-        right -= 1
-      if left <= right:
-        A[left], A[right] = A[right], A[left]
-        left += 1
-        right -= 1
-  self.quickSort(A, start, right)
-  self.quickSort(A, left, end)
+        # Partition the array
+        while left <= right:
+            # Find an element larger than or equal to pivot from the left
+            while left <= right and nums[left] < pivot:
+                left += 1
+            # Find an element smaller than or equal to pivot from the right
+            while left <= right and nums[right] > pivot:
+                right -= 1
+            # If left and right haven’t crossed, swap the elements
+            if left <= right:
+                nums[left], nums[right] = nums[right], nums[left]
+                left += 1
+                right -= 1
+
+        # Recursive QuickSort calls for the left and right partitions
+        self.quickSort(nums, start, right)  # Sort left partition
+        self.quickSort(nums, left, end)  # Sort right partition
 
 class MergeSortSolution:
   def sortIntegers(self, A):
